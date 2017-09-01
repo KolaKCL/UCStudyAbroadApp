@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/steppagebg"
+    tools:context="au.edu.canberra.ucstudyabroadapp.Step_page">
+
+    <ScrollView
+        android:layout_width="310dp"
+        android:layout_height="435dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="94dp"
+        app:layout_constraintBottom_toBottomOf="@+id/progressBar2"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteX="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/firstStep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Have you received and offer letter from University of Caberra?"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="197dp" />
+
+            <CheckBox
+                android:id="@+id/secondStep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Have you received and offer letter from University of Caberra?"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="197dp" />
+
+            <CheckBox
+                android:id="@+id/thirdStep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Return your signed UC offer letter and OSHC payment"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="197dp" />
+
+            <CheckBox
+                android:id="@+id/forthStep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Receive your Confirmation of Enrollment (COE)"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="197dp" />
+
+            <CheckBox
+                android:id="@+id/fifthStep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apply for your visa using your COE"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="197dp" />
+
+            <CheckBox
+                android:id="@+id/sixthStep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Make sure you have unit (class/module) approval from your home university for your nominated UC units"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="197dp" />
+
+            <CheckBox
+                android:id="@+id/seventhStep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Like UC Study Abroad on Facebook"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="197dp" />
+
+            <CheckBox
+                android:id="@+id/eigthStep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Receive the Enrolment Guide and MyUC log in details by e-mail"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="197dp" />
+
+            <CheckBox
+                android:id="@+id/ninethStep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Check the University Calendar and book your flights to Australia!"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="197dp" />
+
+            <CheckBox
+                android:id="@+id/tenthStep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Book your free Airport/Bus/Train Pick Up Service."
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="197dp" />
+
+            <CheckBox
+                android:id="@+id/eleventhStep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Make a budget. "
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="197dp" />
+
+            <CheckBox
+                android:id="@+id/twelvethStep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start planning your trip, read about Australia, Canberra and places you may want to visit. "
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="197dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="331dp"
+        android:layout_height="33dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.538" />
+
+</android.support.constraint.ConstraintLayout>
